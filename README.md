@@ -36,9 +36,7 @@ Ensure that Python 3 is installed on your system.
 python OS.py
 ```
 
-## Example Usage
-
-Below is an example interaction with the CLI application:
+## Command Usage
 
 ```bash
 CLI >
