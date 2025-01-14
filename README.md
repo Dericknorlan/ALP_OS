@@ -24,13 +24,16 @@ The script supports the following commands:
 - **log**: Logs a command to a log file (`command_log.txt`) for record-keeping.
 - **exit**: Exits the CLI application.
 
-## How to Use
+## How to Run the Program
 
-### Prerequisites
+Ensure that Python 3 is installed on your system.
 
-- **Python Installation**: Ensure you have Python 3.x installed on your system. You can check by running:
-  ```bash
-  python --version
+1. Clone the repository or copy the `ALP_OS.py` script to a local directory.
+2. Open a terminal or command prompt and navigate to the directory containing the `ALP_CLI.py` file.
+3. Execute the program with the command:
+
+```bash
+python ALP_CLI.py
 
 ## Example Usage
 
