@@ -34,6 +34,7 @@ Ensure that Python 3 is installed on your system.
 
 ```bash
 python OS.py
+```
 
 ## Example Usage
 
