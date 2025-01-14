@@ -31,3 +31,36 @@ The script supports the following commands:
 - **Python Installation**: Ensure you have Python 3.x installed on your system. You can check by running:
   ```bash
   python --version
+
+## Example Usage
+
+Below is an example interaction with the CLI application:
+
+```bash
+CLI > pwd
+/home/user/my_projects
+
+CLI > mkdir example_folder
+Directory 'example_folder' successfully created.
+
+CLI > cd example_folder
+Switched to /home/user/my_projects/example_folder
+
+CLI > touch file.txt
+File 'file.txt' created.
+
+CLI > ls
+file.txt
+
+CLI > search file
+/home/user/my_projects/example_folder/file.txt
+
+CLI > tree
+|- file.txt
+
+CLI > log "Created example_folder and file.txt"
+Command logged: "Created example_folder and file.txt"
+
+CLI > exit
+Goodbye!
+
