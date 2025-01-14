@@ -33,7 +33,7 @@ Ensure that Python 3 is installed on your system.
 3. Execute the program with the command:
 
 ```bash
-python ALP_CLI.py
+python ALP_OS.py
 
 ## Example Usage
 
