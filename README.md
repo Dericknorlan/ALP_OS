@@ -41,30 +41,65 @@ python OS.py
 Below is an example interaction with the CLI application:
 
 ```bash
-CLI > pwd
-/home/user/my_projects
-
-CLI > mkdir example_folder
-Directory 'example_folder' successfully created.
-
-CLI > cd example_folder
-Switched to /home/user/my_projects/example_folder
-
-CLI > touch file.txt
-File 'file.txt' created.
-
+CLI >
+# List files and directories
 CLI > ls
-file.txt
+# Displays all files and directories in the current working directory.
 
-CLI > search file
-/home/user/my_projects/example_folder/file.txt
+# Print the current directory
+CLI > pwd
+# Displays the absolute path of the current working directory.
 
+# Change directory
+CLI > cd /path/to/directory
+# Changes the current working directory to the specified path.
+
+# Create a directory
+CLI > mkdir new_folder
+# Creates a new directory named new_folder in the current directory.
+
+# Remove an empty directory
+CLI > rmdir empty_folder
+# Deletes the directory named empty_folder if it is empty.
+
+# Create a new file
+CLI > touch new_file.txt
+# Creates an empty file named new_file.txt in the current directory.
+
+# Delete a file
+CLI > rm unwanted_file.txt
+# Deletes the file unwanted_file.txt from the current directory.
+
+# Copy a file
+CLI > cp source.txt destination.txt
+# Copies the file source.txt to destination.txt. The destination can also be a directory.
+
+# Move or rename a file or directory
+CLI > mv old_name.txt new_name.txt
+# Renames or moves old_name.txt to new_name.txt or another directory.
+
+# Display help information
+CLI > help
+# Lists all available commands with descriptions.
+
+# Clear the terminal
+CLI > clear
+# Clears the terminal screen. Useful for reducing clutter.
+
+# Search for files or directories
+CLI > search pattern
+# Searches for files or directories whose names contain the specified pattern.
+
+# Display the directory structure
 CLI > tree
-|- file.txt
+# Displays the directory structure of the current directory in a tree format.
+CLI > tree /path/to/directory
+# Optionally, specify a directory path.
 
-CLI > log "Created example_folder and file.txt"
-Command logged: "Created example_folder and file.txt"
+# Log a command
+CLI > log any_command_here
+# Logs the specified command or text to command_log.txt for record-keeping.
 
+# Exit the CLI
 CLI > exit
-Goodbye!
-
+# Ends the CLI session and exits the application.
