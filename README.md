@@ -28,12 +28,12 @@ The script supports the following commands:
 
 Ensure that Python 3 is installed on your system.
 
-1. Clone the repository or copy the `ALP_OS.py` script to a local directory.
-2. Open a terminal or command prompt and navigate to the directory containing the `ALP_CLI.py` file.
+1. Clone the repository or copy the `OS.py` script to a local directory.
+2. Open a terminal or command prompt and navigate to the directory containing the `OS.py` file.
 3. Execute the program with the command:
 
 ```bash
-python ALP_OS.py
+python OS.py
 
 ## Example Usage
 
